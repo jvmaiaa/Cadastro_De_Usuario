@@ -24,6 +24,7 @@ public class SenhaMasterAuthenticationProvider implements AuthenticationProvider
             return new UsernamePasswordAuthenticationToken
                     ("Sou Master", null, List.of(new SimpleGrantedAuthority("ADMIN")));
         }
+
         return null;
     }
 
